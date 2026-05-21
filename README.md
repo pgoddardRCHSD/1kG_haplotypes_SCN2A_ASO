@@ -4,7 +4,7 @@ Haplotype analysis pipeline supporting the identification of population-common S
 Kim-McManus et al. From N-of-1 to N-of-Many: A haplospecific ASO approach for SCN2A-associated childhood neurological disease. American Journal of Human Genetics (in revision).
 
 ### Overview
-The pipeline takes phased short-read genotype data from the 1kGP and identifies haplotype blocks across the SCN2A coding region, characterises common haplotypes by population, and generates ranked candidate ASO target variants for in silico screening. An orthogonal quality-control analysis using 1kGP ONT long-read data is also included.
+The pipeline takes phased short-read genotype data from the 1kGP and identifies haplotype blocks across the SCN2A coding region, characterises common haplotypes by population, and generates ranked candidate ASO target variants for in silico screening.
 
 Repository structure
 ├── scn2a_haplotype_pipeline.sh       # Main pipeline (Steps 1–7)
