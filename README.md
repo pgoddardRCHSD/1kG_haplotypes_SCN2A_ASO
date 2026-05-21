@@ -7,12 +7,16 @@ Kim-McManus et al. From N-of-1 to N-of-Many: A haplospecific ASO approach for SC
 The pipeline takes phased short-read genotype data from the 1kGP and identifies haplotype blocks across the SCN2A coding region, characterises common haplotypes by population, and generates ranked candidate ASO target variants for in silico screening.
 
 Repository structure
+```
+project_dir/
+├── data/
+├── results/
 ├── scn2a_haplotype_pipeline.sh       # Main pipeline (Steps 1–7)
 ├── scn2a_haplotype_config.sh         # Configuration (edit before running)
 ├── scn2a_parse_haplotypes.R          # Step 6: haplotype parsing, Table S1, figures
 ├── scn2a_generate_asog_table.py      # Step 7: Table S2 and ASOG input table
-├── scn2a_qc.py                       # ONT vs short-read QC analysis
 └── README.md
+```
 
 ## Dependencies
 Tool | Version tested
